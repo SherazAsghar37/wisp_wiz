@@ -34,7 +34,7 @@ dependencies:
   #widgets
   cached_network_image: ^3.4.1
   cupertino_icons: ^1.0.8
-  flutter_side_menu: ^0.5.41
+  flutter_bounce: ^1.1.0
 
   #Data and network
   dartz: ^0.10.1
@@ -46,7 +46,10 @@ dependencies:
   #Helper
   flutter_svg: ^2.0.17
   logger: ^2.5.0
-  iconsax: ^0.0.8
+  hugeicons: ^0.0.10
+  flutter_screenutil: ^5.9.3
+  flutter_animate: ^4.5.2
+
 
   #state management
   flutter_bloc: ^9.1.0

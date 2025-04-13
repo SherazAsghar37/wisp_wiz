@@ -33,6 +33,7 @@ abstract class AAppTheme {
     outlinedButtonTheme: AOutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: ATextFormFieldTheme.lightInputDecorationTheme,
     cardColor: Colours.lightCardColor,
+
     bottomNavigationBarTheme:
         ABottomNavigationTheme.lightBottomNavigationBarTheme,
   );

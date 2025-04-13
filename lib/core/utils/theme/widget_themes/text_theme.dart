@@ -23,17 +23,17 @@ abstract class ATextTheme {
       color: Colours.black,
     ),
     titleLarge: const TextStyle().copyWith(
-      fontSize: 16.0,
+      fontSize: 14.0,
       fontWeight: FontWeight.w600,
       color: Colours.black,
     ),
     titleMedium: const TextStyle().copyWith(
-      fontSize: 16.0,
+      fontSize: 14.0,
       fontWeight: FontWeight.w500,
       color: Colours.black,
     ),
     titleSmall: const TextStyle().copyWith(
-      fontSize: 16.0,
+      fontSize: 14.0,
       fontWeight: FontWeight.w400,
       color: Colours.black,
     ),
@@ -48,7 +48,8 @@ abstract class ATextTheme {
       color: Colours.black,
     ),
     bodySmall: const TextStyle().copyWith(
-      fontSize: 14.0,
+      letterSpacing: 0.1,
+      fontSize: 12.0,
       fontWeight: FontWeight.w500,
       color: Colours.black.withValues(alpha: 0.5),
     ),
@@ -82,17 +83,17 @@ abstract class ATextTheme {
       color: Colours.white,
     ),
     titleLarge: const TextStyle().copyWith(
-      fontSize: 16.0,
+      fontSize: 14.0,
       fontWeight: FontWeight.w600,
       color: Colours.white,
     ),
     titleMedium: const TextStyle().copyWith(
-      fontSize: 16.0,
+      fontSize: 14.0,
       fontWeight: FontWeight.w500,
       color: Colours.white,
     ),
     titleSmall: const TextStyle().copyWith(
-      fontSize: 16.0,
+      fontSize: 14.0,
       fontWeight: FontWeight.w400,
       color: Colours.white,
     ),
@@ -107,7 +108,8 @@ abstract class ATextTheme {
       color: Colours.white,
     ),
     bodySmall: const TextStyle().copyWith(
-      fontSize: 14.0,
+      letterSpacing: 0.1,
+      fontSize: 12.0,
       fontWeight: FontWeight.w500,
       color: Colours.white.withValues(alpha: 0.5),
     ),

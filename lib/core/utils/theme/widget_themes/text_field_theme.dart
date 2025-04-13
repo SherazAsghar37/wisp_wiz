@@ -7,33 +7,42 @@ abstract class ATextFormFieldTheme {
 
   static InputDecorationTheme lightInputDecorationTheme = InputDecorationTheme(
     errorMaxLines: 2,
-    prefixIconColor: Colours.hitTextColor,
-    suffixIconColor: Colours.hitTextColor,
+    prefixIconColor: Colours.black,
+    suffixIconColor: Colours.black,
+    filled: true,
+
     // constraints: const BoxConstraints.expand(height: AppSizes.inputFieldHeight),
     labelStyle: const TextStyle().copyWith(
       fontSize: AppSizes.fontSizeMd,
-      color: Colours.hitTextColor,
+      color: Colours.black,
+      fontWeight: FontWeight.w400,
     ),
     hintStyle: const TextStyle().copyWith(
       fontSize: AppSizes.fontSizeSm,
       color: Colours.hitTextColor,
+      fontWeight: FontWeight.w400,
     ),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
     floatingLabelStyle: const TextStyle().copyWith(
       color: Colours.black.withValues(alpha: 0.8),
     ),
+    contentPadding: EdgeInsets.symmetric(
+      vertical: AppSizes.lg,
+      horizontal: AppSizes.xxl,
+    ),
+
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(AppSizes.inputFieldRadius),
       borderSide: const BorderSide(
         width: 1,
-        color: Colours.textFieldSurfaceColor,
+        color: Colours.lightTextFieldFillColor,
       ),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(AppSizes.inputFieldRadius),
       borderSide: const BorderSide(
         width: 1,
-        color: Colours.textFieldSurfaceColor,
+        color: Colours.lightTextFieldFillColor,
       ),
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
@@ -58,28 +67,36 @@ abstract class ATextFormFieldTheme {
     labelStyle: const TextStyle().copyWith(
       fontSize: AppSizes.fontSizeMd,
       color: Colours.white,
+      fontWeight: FontWeight.w400,
     ),
     hintStyle: const TextStyle().copyWith(
       fontSize: AppSizes.fontSizeSm,
       color: Colours.hitTextColorDark,
+      fontWeight: FontWeight.w400,
     ),
     floatingLabelStyle: const TextStyle().copyWith(
       color: Colours.white.withValues(alpha: 0.8),
     ),
+    contentPadding: EdgeInsets.symmetric(
+      vertical: AppSizes.lg,
+      horizontal: AppSizes.xxl,
+    ),
+
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(AppSizes.inputFieldRadius),
       borderSide: const BorderSide(
         width: 1,
-        color: Colours.textFieldSurfaceColorDark,
+        color: Colours.darkTextFieldFillColor,
       ),
     ),
     enabledBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(AppSizes.inputFieldRadius),
       borderSide: const BorderSide(
         width: 1,
-        color: Colours.textFieldSurfaceColorDark,
+        color: Colours.darkTextFieldFillColor,
       ),
     ),
+    filled: true,
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(AppSizes.inputFieldRadius),
       borderSide: const BorderSide(width: 1, color: Colours.enabledBorderColor),

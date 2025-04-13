@@ -25,10 +25,10 @@ abstract class Colours {
   static const Color buttonSecondary = secondary;
 
   // Text Field colors
-  static const Color textFieldSurfaceColor = Color(0xFFf0f0f0);
+  static const Color lightTextFieldFillColor = lightCardColor;
   static const Color hitTextColor = Color(0xFFb6b6b6);
-  static const Color enabledBorderColor = Color(0xFF90e476);
-  static const Color textFieldSurfaceColorDark = Color(0xFF20312a);
+  static const Color enabledBorderColor = hitTextColor;
+  static const Color darkTextFieldFillColor = darkCardColor;
   static const Color hitTextColorDark = Color(0xFF87918d);
 
   //Icons color
@@ -53,5 +53,5 @@ abstract class Colours {
   static const Color grey = Color(0xFFE0E0E0);
   static const Color softGrey = Color(0xFFF4F4F4);
   static const Color lightGrey = Color(0xFFF9F9F9);
-  // static const Color white = Color(0xFFFFFFFF);
+  static const Color white = Color(0xFFFFFFFF);
 }
