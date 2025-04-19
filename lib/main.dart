@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:wisp_wiz/core/utils/constants/image_strings.dart';
 import 'package:wisp_wiz/core/utils/theme/theme.dart';
-import 'package:wisp_wiz/features/authentication/presentation/screens/otp_vertification_screen.dart';
+import 'package:wisp_wiz/features/chat/presentation/screens/chats_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
             themeMode: ThemeMode.light,
             theme: AAppTheme.lightTheme,
             darkTheme: AAppTheme.darkTheme,
-            home: OtpVertificationScreen(),
+            home: ChatsScreen(image: ImageStrings.profileImage1),
           ),
     );
   }

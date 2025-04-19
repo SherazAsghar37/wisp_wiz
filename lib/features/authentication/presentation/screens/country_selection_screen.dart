@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:wisp_wiz/core/common/extensions/build_context_extensions.dart';
-import 'package:wisp_wiz/core/constants/routes_constants.dart';
+import 'package:wisp_wiz/core/utils/constants/routes_constants.dart';
 import 'package:wisp_wiz/features/authentication/presentation/widgets/countries_list.dart';
 
 class CountrySelectionScreen extends StatelessWidget {

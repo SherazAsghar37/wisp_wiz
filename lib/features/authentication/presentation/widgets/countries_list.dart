@@ -3,7 +3,7 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:hugeicons/hugeicons.dart';
 import 'package:wisp_wiz/core/common/widgets/buttons/app_bounce.dart';
 import 'package:wisp_wiz/core/common/widgets/tex-fields/app_text_field.dart';
-import 'package:wisp_wiz/core/constants/countires_data.dart';
+import 'package:wisp_wiz/core/utils/constants/countires_data.dart';
 import 'package:wisp_wiz/features/authentication/presentation/data/models/country_model.dart';
 import 'package:wisp_wiz/features/authentication/presentation/widgets/country_card.dart';
 
